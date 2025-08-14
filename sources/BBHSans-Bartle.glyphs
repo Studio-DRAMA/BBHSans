@@ -1,11 +1,10 @@
 {
-.appVersion = "3420";
+.appVersion = "3310";
 .formatVersion = 3;
 DisplayStrings = (
 "aI
 HHOO
 HHOOH",
-"",
 "/.notdef"
 );
 customParameters = (
@@ -132,7 +131,7 @@ value = 1;
 }
 );
 date = "2025-04-15 10:57:34 +0000";
-familyName = "BBH Sans";
+familyName = "BBH Sans Bartle";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;";
@@ -4752,8 +4751,9 @@ width = 512;
 unicode = 45;
 },
 {
+export = 0;
 glyphname = softhyphen;
-lastChange = "2025-06-30 10:04:55 +0000";
+lastChange = "2025-08-14 08:43:27 +0000";
 layers = (
 {
 layerId = "C18D3387-8030-4A68-97FB-3AF8A3E1D39D";
@@ -6325,6 +6325,26 @@ metricWidth = "=222";
 unicode = 8287;
 },
 {
+glyphname = lineseparator;
+layers = (
+{
+layerId = "C18D3387-8030-4A68-97FB-3AF8A3E1D39D";
+width = 600;
+}
+);
+unicode = 8232;
+},
+{
+glyphname = paragraphseparator;
+layers = (
+{
+layerId = "C18D3387-8030-4A68-97FB-3AF8A3E1D39D";
+width = 600;
+}
+);
+unicode = 8233;
+},
+{
 glyphname = .notdef;
 lastChange = "2025-08-13 14:18:37 +0000";
 layers = (
@@ -6642,18 +6662,7 @@ instances = (
 instanceInterpolations = {
 "C18D3387-8030-4A68-97FB-3AF8A3E1D39D" = 1;
 };
-name = Bartle;
-properties = (
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = "BBH Sans";
-}
-);
-}
-);
+name = Regular;
 }
 );
 kerningLTR = {

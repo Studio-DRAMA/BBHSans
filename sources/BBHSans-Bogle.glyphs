@@ -1,9 +1,6 @@
 {
-.appVersion = "3420";
+.appVersion = "3310";
 .formatVersion = 3;
-DisplayStrings = (
-"/.notdef"
-);
 customParameters = (
 {
 name = glyphOrder;
@@ -128,7 +125,7 @@ value = 1;
 }
 );
 date = "2025-04-15 10:57:34 +0000";
-familyName = "BBH Sans";
+familyName = "BBH Sans Bogle";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;";
@@ -4659,8 +4656,9 @@ width = 440;
 unicode = 45;
 },
 {
+export = 0;
 glyphname = softhyphen;
-lastChange = "2025-06-30 10:04:55 +0000";
+lastChange = "2025-08-14 08:43:18 +0000";
 layers = (
 {
 layerId = "39DC058D-615C-44EE-9158-2D05AB2D1C50";
@@ -6246,6 +6244,26 @@ metricWidth = "=222";
 unicode = 8287;
 },
 {
+glyphname = lineseparator;
+layers = (
+{
+layerId = "39DC058D-615C-44EE-9158-2D05AB2D1C50";
+width = 600;
+}
+);
+unicode = 8232;
+},
+{
+glyphname = paragraphseparator;
+layers = (
+{
+layerId = "39DC058D-615C-44EE-9158-2D05AB2D1C50";
+width = 600;
+}
+);
+unicode = 8233;
+},
+{
 glyphname = .notdef;
 lastChange = "2025-08-13 14:18:54 +0000";
 layers = (
@@ -6563,18 +6581,7 @@ instances = (
 instanceInterpolations = {
 "39DC058D-615C-44EE-9158-2D05AB2D1C50" = 1;
 };
-name = Bogle;
-properties = (
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = "BBH Sans";
-}
-);
-}
-);
+name = Regular;
 }
 );
 kerningLTR = {
